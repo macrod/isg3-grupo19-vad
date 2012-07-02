@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Project Glossary</title>
+<link href="./css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="16%" class="TableHeading">Item</td>
+			<td width="8%" class="TableHeading">Type</td>
+			<td width="76%" class="TableHeading">Meaning</td>
+		</tr>
+						<tr valign="top">
+				<td width="16%" class="TableRow">Arquitectura de Despliegue</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Es una vista del hardware propuesto que configurará el nuevo sistema, junto con los componentes físicos que se ejecutarán en ese hardware. Incluye las especificaciones de las diferentes máquinas, sistemas operativos, enlaces de red, unidades de backup, etc.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Asociación</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Es una relación entre dos o más entidades. Implica una conexión del algún tipo - por ejemplo una entidad usa los servicios de otra, o una entidad está conectada con otra a través de un enlace de red.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Caso de Uso</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Un Caso de Uso representa una unidad discreta de interacción o funcionalidad entre un usuario (persona o sistema) y le propio sistema. Un caso de uso es una unidad sencilla de trabajo significatibo; por ejemplo crear una ficha, modificar un pedido o emitir una factura constituyen ejemplos de casos de uso.
+
+Cada Caso de Uso tiene una descripción que detalla la funcionalidad que proporcionará al sistema. Un Caso de Uso puede 'incluir' otros Casos de Uso o 'extender' otro Caso de Uso dentro de su propio comportamiento.
+
+Los Casos de Uso están normalmente relacionados con Actores.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Clase</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Una entidad lógica que encapsula datos y comportamiento. Una clase es una plantilla para un objeto - la clase es un concepto de diseño, y el objeto es la instancia en tiempo de ejecución.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Estrategia de desarrollo</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Es el enfoque a utilizar para establecer cómo debe organizarse el proyecto.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">EVS</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Estudio de Viabilidad del Sistema. Es uno de los procesos de Métrica 3. Es equivalente al ARS de Métrica 2 y sus productos fundamentales son: Descripción del Ámbito y Alcance del Proyecto, Catálogo de Requerimientos, Solución de Desarrollo Seleccionada, Plan inicial de Trabajo. Se pueden ver las actividades fundamentales de este proceso observando la estructura de proyecto en Enterprise Architect.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Métrica 3</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Es la metodología que se emplea para el desarrollo de aplicaciones. Métrica 3 es la metodología de desarrollo de Sistemas de Información especialmente dirigido a las Administraciones Públicas.
+
+Incluye un modelo de referencia para desarrollos estructurados y desarrollos orientados a objeto.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Modelo de Componentes</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">El modelo de componentes proporciona una visión detallada de los diferentes componentes software y hardware que configuran el sistema propuesto. Muestra cómo interactúan estos componentes y el lugar donde residen. Los requerimientos de los componentes detallan que responsabilidades u operaciones debe proporcionar dentro del sistema.
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Modelo de Despliegue</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Un modelo del sistema tal como se desplagará físicamente.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Paquete</td>
+				<td width="8%" class="TableRow">Technical</td>
+				<td width="76%" class="TableRow">Artefacto UML que agrupa elementos de la misma naturaleza. Es de propósito general, y eromite agrupar tanto elementos del proceso (actividades) como elementos del Proyecto (modelos y diagramas)</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Proyecto</td>
+				<td width="8%" class="TableRow">Business</td>
+				<td width="76%" class="TableRow">Un proyecto es una petición de un departamento aceptada para desarrollar una solución informática</td>
+			</tr>
+</table><div class="pageFooter"></div>
+ 
+</body>
+</html>

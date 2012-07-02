@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC-0034. Modificar Perfil</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">UC-0034. Modificar Perfil  : public   usecase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/03/2006 8:06:59</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">01/07/2012 11:37:10</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Macarena Rodriguez Rodriguez</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Aprobado</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Medium</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{415AC1D5-8058-46ef-847B-BF5383EB240E}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA107.htm">022.05.Diagrama de Casos de Uso del Subsistema Gestión de Usuarios y Perfiles</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">UC. HAbilitado para perfil admiistrador. No incluido en esta versión VaD_v1.0.<br /><br />Actores	Usuario Admin<br />Propósito	Realizar la modificación de los datos de un perfil<br />Resumen	El Usuario consulta los datos de los perfiles y solicita la modificación de un registro, introduce los nuevos valores y el Sistema almacena las modificaciones en los datos del perfil.<br />Tipo	Primario y Esencial<br />Referencias Cruzadas	Casos de uso: el usuario debe haber terminado el caso de uso Acceso al Sistema (UC-26) y el caso de uso Consultar Perfil (CAU-33).<br />Requisitos Asociados	<br />Curso normal de los eventos<br />Acciones de los actores	Respuesta del Sistema<br />1. El Usuario accede a la ventana de mantenimiento de perfiles (CAU-33).	<br />	2. Muestra la ventana del mantenimiento de perfiles con todos los registros almacenados, y sus funcionalidades y acciones relacionadas.<br />3. El Usuario selecciona un registro y solicita modificar sus datos.	<br />	4. Muestra la ventana con los datos del registro seleccionado para ser modificados.<br />5. El Usuario modifica los datos que considere oportunos.	<br />6. El Usuario solicita almacenar los datos modificados.	<br />	7. Solicita confirmación de la operación.<br />8. El Usuario confirma la modificación de los datos del perfil.	<br />	9. Almacena los nuevos datos.<br />Cursos alternos<br />Línea 4: El Usuario no tiene permisos para realizar modificaciones de datos de perfiles. El Sistema muestra mensaje informando y cancela el proceso.<br />Línea 8: El Usuario cancela la modificación. El Sistema cancela el proceso.<br />Línea 9: El Usuario no introduce todos los datos obligatorios del perfil. El Sistema muestra mensaje informando al respecto y solicita la introducción de todos los datos obligatorios antes de almacenar las modificaciones en los datos del perfil, no permitiendo su actualización hasta que todos esos datos estén cumplimentados.<br /></div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA1/EA4/EA1/EA51.htm">ACT-1. Administradores</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA1/EA4/EA1/EA53.htm">ACT-3. Demandantes</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA1/EA4/EA1/EA52.htm">ACT-2. Voluntarios</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

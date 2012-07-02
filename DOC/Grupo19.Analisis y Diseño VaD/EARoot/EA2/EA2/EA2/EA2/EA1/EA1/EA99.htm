@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC-AD0040-Consulta</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">UC-AD0040-Consulta  : public   usecase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">08/09/2006 14:09:35</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">01/07/2012 11:44:00</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Carlos Pompa Domínguez</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{AFE000D6-DF6F-4d41-B829-4C5C3D22B577}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA92.htm">Comun</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">DESCRIPCIÓN:<br />Consulta de una tabla. Permite la consulta de los datos correspondientes a la tabla. El funcionamiento de todas las consultas es similar, por lo que este Caso de Uso es válido para la mayoría de ellos.<br /><br /><br /><br />PRECONDICIÓN:<br />El usuario está autenticado y tiene permisos para acceder aquí. Es decir cumple el CU-AD0005-Seguridad.<br /><br />SECUENCIA NORMAL:<br />1.-El usuario selecciona la opción de Consulta de la tabla X.<br />2.-El sistema comprueba que tiene permiso y presenta una pantalla para introducir un filtro.<br />3.-El usuario introduce el filtro y pulsa la opción de filtrar.<br />4.-El sistema presenta una lista de datos que cumplen con el filtro. Esta lista presenta los registros paginados de 10 en 10.<br />5.-El usuario selecciona el registro que desea consultar.<br />6.-El sistema presenta los datos del registro seleccionado recogiéndolos de la base de datos.<br /><br /><br />SECUENCIAS ALTERNATIVAS:<br />2.-Si el usuario no tiene permiso, el sistema presenta un mensaje indicándolo.<br /><br /><br />POSTCONDICIÓN:<br /><br /><br />REFERENCIAS:<br />CU-AD0005<br />ERD-AD0010<br /><br /><br />PLAN DE PRUEBAS:<br />- Los registros de la lista todos los que cumplen el filtro y sólo los que cumplen el filtro.<br />- Al consultar un registro se muestran los datos que realmente están en la BBDD.<br />- Realizar las pruebas definidas en la checklist del documento de instrucción técnica.</div>
+
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

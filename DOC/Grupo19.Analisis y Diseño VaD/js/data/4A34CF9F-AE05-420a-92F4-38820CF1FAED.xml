@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("2.2.5.3:1", "", "VaD. Diseño de Clases de Dominio", "EARoot/EA2/EA2/EA5/EA3/EA250.htm", "175.png", "651", "0", "", "Logical diagram");
+tocTab[tocTab.length] = new Array("2.2.5.3:2", "", "Alerta", "EARoot/EA2/EA2/EA5/EA3/EA252.htm", "5.png", "4456", "0", "", "Class");
+tocTab[tocTab.length] = new Array("2.2.5.3:3", "", "AlertaProcessor", "EARoot/EA2/EA2/EA5/EA3/EA253.htm", "5.png", "4457", "0", "", "Class");
+tocTab[tocTab.length] = new Array("2.2.5.3:4", "", "AlertaStore", "EARoot/EA2/EA2/EA5/EA3/EA254.htm", "5.png", "4458", "0", "", "Class");
+tocTab[tocTab.length] = new Array("2.2.5.3:5", "", "«interface» IAlertaProcessor", "EARoot/EA2/EA2/EA5/EA3/EA255.htm", "8.png", "4463", "0", "", "Interface");
+tocTab[tocTab.length] = new Array("2.2.5.3:6", "", "RegistroStore", "EARoot/EA2/EA2/EA5/EA3/EA256.htm", "5.png", "4473", "0", "", "Class");
+tocTab[tocTab.length] = new Array("2.2.5.3:7", "", "TipoServicioStore", "EARoot/EA2/EA2/EA5/EA3/EA257.htm", "5.png", "4478", "0", "", "Class");
+tocTab[tocTab.length] = new Array("2.2.5.3:8", "", "VoluntarioStore", "EARoot/EA2/EA2/EA5/EA3/EA258.htm", "5.png", "4482", "0", "", "Class");
