@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("2.2.4.1:1", "", "041.Diagrama de Clases Asociadas a un CU", "EARoot/EA2/EA2/EA4/EA1/EA206.htm", "175.png", "602", "0", "", "Logical diagram");
+tocTab[tocTab.length] = new Array("2.2.4.1:2", "", "041.Diagramas de Secuencia o colaboración", "EARoot/EA2/EA2/EA4/EA1/EA208.htm", "185.png", "603", "0", "", "Sequence diagram");

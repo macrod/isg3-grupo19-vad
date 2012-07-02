@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("1.2.1.1", "", "GPI.011. Identificación de Elementos a Desarrollar", "EARoot/EA1/EA2/EA1/EA12.htm", "4.png", "", "", "{3D8C85E2-0668-47f8-B411-6A43E653226C}", "Package");
+tocTab[tocTab.length] = new Array("1.2.1.2", "", "GPI.012. Cálculo del Esfuerzo", "EARoot/EA1/EA2/EA1/EA13.htm", "4.png", "", "", "{79E3B5EF-C787-4dea-B909-B4A7DCC786A9}", "Package");

@@ -1,0 +1,703 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>052.UML Diseño de Clases de Dominio_tmp::Alerta</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Alerta  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28/06/2012 16:11:14</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">28/06/2012 16:11:14</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">carlos.pompa</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{EF46CE88-EAB7-42a4-B54A-5D27AABEF8C4}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA250.htm">VaD. Diseño de Clases de Dominio</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public String</i><br /><strong>&nbsp;&nbsp;aler_descripcion</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public String</i><br /><strong>&nbsp;&nbsp;aler_emailcontacto</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;aler_id</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public String</i><br /><strong>&nbsp;&nbsp;aler_nombrecontacto</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;muni_muniid</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;prov_provid</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;serv_servid</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;tibu_tibuid</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public int</i><br /><strong>&nbsp;&nbsp;tise_tiseid</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>&nbsp;</td>
+			</tr>
+		</table>
+</div><div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Operation</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>Alerta</strong>():
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getAler_descripcion</strong>():String
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the aler_descripcion
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getAler_emailcontacto</strong>():String
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the aler_emailcontacto
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getAler_id</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the aler_id
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getAler_nombrecontacto</strong>():String
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the aler_nombrecontacto
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getMuni_muniid</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the muni_muniid
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getProv_provid</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the prov_provid
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getServ_servid</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the serv_servid
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getTibu_tibuid</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the tibu_tibuid
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>getTise_tiseid</strong>():int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			@return the tise_tiseid
+		</td>
+	</tr>
+</table></div>
+
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setAler_descripcion</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{39AA9882-4C45-49f6-8DDA-A808027082A8}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{39AA9882-4C45-49f6-8DDA-A808027082A8}" border="0" />aler_descripcion: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{39AA9882-4C45-49f6-8DDA-A808027082A8}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{39AA9882-4C45-49f6-8DDA-A808027082A8}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{39AA9882-4C45-49f6-8DDA-A808027082A8}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{39AA9882-4C45-49f6-8DDA-A808027082A8}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the aler_descripcion to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setAler_emailcontacto</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}" border="0" />aler_emailcontacto: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{7A5BCA3F-4207-43d6-BDD5-EFEAE4BBF75C}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the aler_emailcontacto to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setAler_id</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{D05D595A-9875-4098-87EA-F85723F98FD3}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{D05D595A-9875-4098-87EA-F85723F98FD3}" border="0" />aler_id: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D05D595A-9875-4098-87EA-F85723F98FD3}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D05D595A-9875-4098-87EA-F85723F98FD3}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D05D595A-9875-4098-87EA-F85723F98FD3}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D05D595A-9875-4098-87EA-F85723F98FD3}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the aler_id to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setAler_nombrecontacto</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}" border="0" />aler_nombrecontacto: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BF7B1DA2-501F-4fdc-B14F-3D9C08405FC2}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the aler_nombrecontacto to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setMuni_muniid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}" border="0" />muni_muniid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D4338FC4-182A-44b8-A6D6-4D9326C82EAB}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the muni_muniid to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setProv_provid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{71CCE53D-A869-4f61-8EC6-60E0980E1965}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{71CCE53D-A869-4f61-8EC6-60E0980E1965}" border="0" />prov_provid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{71CCE53D-A869-4f61-8EC6-60E0980E1965}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{71CCE53D-A869-4f61-8EC6-60E0980E1965}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{71CCE53D-A869-4f61-8EC6-60E0980E1965}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{71CCE53D-A869-4f61-8EC6-60E0980E1965}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the prov_provid to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setServ_servid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}" border="0" />serv_servid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{43ACF65B-73C7-4a3f-BAEE-053DBB5EFEA1}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the serv_servid to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setTibu_tibuid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{D4880184-5D65-4797-BF8B-032F655E663B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{D4880184-5D65-4797-BF8B-032F655E663B}" border="0" />tibu_tibuid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D4880184-5D65-4797-BF8B-032F655E663B}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D4880184-5D65-4797-BF8B-032F655E663B}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D4880184-5D65-4797-BF8B-032F655E663B}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D4880184-5D65-4797-BF8B-032F655E663B}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the tibu_tibuid to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>setTise_tiseid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{199110F5-8006-4330-82DD-770E045E014B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{199110F5-8006-4330-82DD-770E045E014B}" border="0" />tise_tiseid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{199110F5-8006-4330-82DD-770E045E014B}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{199110F5-8006-4330-82DD-770E045E014B}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{199110F5-8006-4330-82DD-770E045E014B}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{199110F5-8006-4330-82DD-770E045E014B}03" style="display: none;">
+							<td width="50"></td>
+							<td><div class="ObjectDetailsNotes">the tise_tiseid to set</div>
+</td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+
+		</table>
+</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

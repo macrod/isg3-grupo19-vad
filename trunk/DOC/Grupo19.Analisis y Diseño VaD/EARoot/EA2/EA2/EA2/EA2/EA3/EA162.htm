@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC-0001. Registro de Usuarios y Servicios</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">UC-0001. Registro de Usuarios y Servicios  (Registro de Usuarios) : public   usecase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">01/09/2011 11:29:09</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">01/07/2012 12:36:42</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Carlos Pompa Domínguez</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Implementado</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{2E5244A4-93EE-4f2a-BBA2-1375FF6F6222}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA142.htm">022.07.Diagrama Casos de Uso del Subsistema Gestión de Voluntarios</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">UC-0001	Registro de Usuarios y Servicios<br />Versión	1.0  (01-06-2012)<br />Autores	Carlos Pompa Domínguez  (Grupo 19)<br />Fuentes	<br />Objetivos asociados	<br />Requisitos asociados	Registro de Usuarios y Servicios<br />Descripción	Los usuarios deben de registrarse previamente para formar parte de la red social de VaD. Los usuarios pueden registrarse como voluntarios o como demandantes que solicitan servicios. Para ello tienen que dar de alta sus datos personales y después los servicios en los que se van a dar de alta como voluntarios o como demandantes. Esto significa dar de alta al usuario, al perfil y los servicios correspondientes.<br /><br />Precondición	El usuario no está registrado previamente.<br /><br />Secuencia normal	Paso	Acción<br />	p1	El usuario accede a la aplicación y no está registrado previamente.<br />	p2	El sistema solicita los campos de los datos personales obligatorios para el registro<br />	p3	El usuario rellena los datos personales y los envía.<br />	p4	El sistema comprueba que el usuario no existe previamente.<br />	p5	El sistema guarda los datos personales en la tabla de usuarios. <br /><br />	p6	El sistema da de alta al usuario en la tabla de usuarios_perfiles<br /><br />               p7             El sistema muestra una pantalla con los datos personales guardados y muestra una lista con los servicios actuales en los que se puede dar de alta<br />               p8	El sistema registra los datos e informa de que los datos han sido registrados.<br /><br />		<br />Post-condición	El usuario es registrado en el sistema como voluntario o demandante  y han  sido dado de alta los servicios que quiere dar o recibir.<br />Excepciones	Paso 	Acción<br />	p1	Si el usuario ya está dado de alta recibe un mensaje de que ya está registrado y lo manda a la pantalla inicial donde podrá logarse.<br />		<br /><br /></div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../EA1/EA4/EA1/EA54.htm">ACT-4. Usuarios Externos</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

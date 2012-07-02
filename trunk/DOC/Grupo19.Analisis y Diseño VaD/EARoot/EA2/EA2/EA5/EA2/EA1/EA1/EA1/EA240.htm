@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>dominio::RegistroProcessor</title>
+<link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">RegistroProcessor  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28/06/2012 16:11:18</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">02/07/2012 11:41:05</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">carlos.pompa</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{CAFC9430-81D4-4c17-B0E9-3E444C253633}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../../../EA3/EA250.htm">VaD. Diseño de Clases de Dominio</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA342.htm">IDemandanteDAO</a></i><br /><strong>&nbsp;&nbsp;ddao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCDemandanteDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private static Logger</i><br /><strong>&nbsp;&nbsp;logger</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> Logger.getLogger(RegistroProcessor.class.getName())<br></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			JDBCTipoServicioDAO jdaotise = new JDBCTipoServicioDAO();
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA334.htm">IMunicipioDAO</a></i><br /><strong>&nbsp;&nbsp;mdao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCMunicipioDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA335.htm">IPerfilDAO</a></i><br /><strong>&nbsp;&nbsp;pdao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCPerfilDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA336.htm">IProvinciaDAO</a></i><br /><strong>&nbsp;&nbsp;provdao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCProvinciaDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA5/EA303.htm">IServicioDAO</a></i><br /><strong>&nbsp;&nbsp;sdao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCServicioDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA340.htm">IUsuarioDAO</a></i><br /><strong>&nbsp;&nbsp;udao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCUsuarioDAO()<br></i>&nbsp;</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>private <a href="../../../../EA6/EA1/EA1/EA1/EA341.htm">IVoluntarioDAO</a></i><br /><strong>&nbsp;&nbsp;vdao</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i><i>Initial:</i> new JDBCVoluntarioDAO()<br></i>&nbsp;</td>
+			</tr>
+		</table>
+</div><div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Operation</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>buscarDemandantes</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}" border="0" />usuario: <a href="EA247.htm">Usuario</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{50AF73EF-8E05-4232-8062-CF4C8FBF25FC}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA247.htm">Usuario</a>
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>annotations=@Override</td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>guardarServicios</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}" border="0" />usuario: <a href="EA247.htm">Usuario</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{3FCF38B1-FB9D-43ee-9931-DC4EB2372A8D}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{AB254755-43E0-493f-A0B2-30CC8AB11443}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{AB254755-43E0-493f-A0B2-30CC8AB11443}" border="0" />serv_id: List<Integer></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{AB254755-43E0-493f-A0B2-30CC8AB11443}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{AB254755-43E0-493f-A0B2-30CC8AB11443}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{AB254755-43E0-493f-A0B2-30CC8AB11443}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{AB254755-43E0-493f-A0B2-30CC8AB11443}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}" border="0" />perfil: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9C9ACC93-7D4B-421b-87C5-E95636AF0EC5}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{023F43B5-A693-4c2e-BCCE-04785682AFDF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{023F43B5-A693-4c2e-BCCE-04785682AFDF}" border="0" />usua_id: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{023F43B5-A693-4c2e-BCCE-04785682AFDF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{023F43B5-A693-4c2e-BCCE-04785682AFDF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{023F43B5-A693-4c2e-BCCE-04785682AFDF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{023F43B5-A693-4c2e-BCCE-04785682AFDF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>isRegistrado</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{669567C6-0F73-4042-8497-9079D53E51F9}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{669567C6-0F73-4042-8497-9079D53E51F9}" border="0" />usua_usuario: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{669567C6-0F73-4042-8497-9079D53E51F9}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{669567C6-0F73-4042-8497-9079D53E51F9}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{669567C6-0F73-4042-8497-9079D53E51F9}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{669567C6-0F73-4042-8497-9079D53E51F9}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{25FD136E-3E77-41be-A2E2-16E2AF140875}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{25FD136E-3E77-41be-A2E2-16E2AF140875}" border="0" />usua_clave: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{25FD136E-3E77-41be-A2E2-16E2AF140875}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{25FD136E-3E77-41be-A2E2-16E2AF140875}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{25FD136E-3E77-41be-A2E2-16E2AF140875}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{25FD136E-3E77-41be-A2E2-16E2AF140875}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):boolean
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>obtenerMisdatos</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}" border="0" />usua_usuario: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8FB63925-C8D8-40a5-92DE-FD39177B5AF2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{A521BB25-50C5-494e-8091-21A8A46D9E1F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{A521BB25-50C5-494e-8091-21A8A46D9E1F}" border="0" />usua_clave: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A521BB25-50C5-494e-8091-21A8A46D9E1F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A521BB25-50C5-494e-8091-21A8A46D9E1F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A521BB25-50C5-494e-8091-21A8A46D9E1F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A521BB25-50C5-494e-8091-21A8A46D9E1F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA247.htm">Usuario</a>
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>recuperarIDByUsername</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}" border="0" />username: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C9F2BD6B-D2F0-49a8-9FB1-C4D993669195}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):int
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>recuperarTodasLasProvincias</strong>():List<Provincia>
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>recuperarTodosLosServicios</strong>():List<Servicio>
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>registrarUsuario</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}" border="0" />usuario: <a href="EA247.htm">Usuario</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{22C106F2-9221-4a62-97F4-A2AEA610B2A4}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{91408BC3-FFB3-46da-8458-A72382278619}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{91408BC3-FFB3-46da-8458-A72382278619}" border="0" />perfil: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{91408BC3-FFB3-46da-8458-A72382278619}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{91408BC3-FFB3-46da-8458-A72382278619}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{91408BC3-FFB3-46da-8458-A72382278619}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{91408BC3-FFB3-46da-8458-A72382278619}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>annotations=@Override</td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>selectMunicipioByMuniid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}" border="0" />muni_muniid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9EFF22CD-7255-4daa-8FDB-DA9073B3FBEA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):String
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>selectProviciaByProvid</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{21DCCEBA-D7C8-460d-9394-18A567487113}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{21DCCEBA-D7C8-460d-9394-18A567487113}" border="0" />prov_provid: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{21DCCEBA-D7C8-460d-9394-18A567487113}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{21DCCEBA-D7C8-460d-9394-18A567487113}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{21DCCEBA-D7C8-460d-9394-18A567487113}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{21DCCEBA-D7C8-460d-9394-18A567487113}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):String
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>voluntarioRegistrado</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}" border="0" />usua_usuario: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9F18C069-D046-4d19-B2A4-0142EAF4CE56}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}" border="0" />usua_email: String</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63172A6A-F3DF-440c-9D34-1A9BA76E6702}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):boolean
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>annotations=@Override</td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA342.htm">«interface» IDemandanteDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> ddao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA335.htm">«interface» IPerfilDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> pdao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA5/EA303.htm">«interface» IServicioDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> sdao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA340.htm">«interface» IUsuarioDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> udao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA341.htm">«interface» IVoluntarioDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> vdao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA334.htm">«interface» IMunicipioDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> mdao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../../../../EA6/EA1/EA1/EA1/EA336.htm">«interface» IProvinciaDAO</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> provdao<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA231.htm">«interface» IRegistroProcessor</a></td>
+					<td width="15%" class="TableRow" valign="top">Interface</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

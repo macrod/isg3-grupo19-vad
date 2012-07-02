@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("1.2.2.1", "", "GPI.021. Selección de la Estrategia de Desarrollo", "EARoot/EA1/EA2/EA2/EA14.htm", "4.png", "", "", "{B97B0DED-73C5-416a-987C-FD859C1CC85B}", "Package");
+tocTab[tocTab.length] = new Array("1.2.2.2", "", "GPI.022. Selección de la Estructura de Actividades, Tareas y Productos", "EARoot/EA1/EA2/EA2/EA15.htm", "4.png", "", "", "{C76F96DF-D3C9-4f03-BE0E-678E28A49AE0}", "Package");
+tocTab[tocTab.length] = new Array("1.2.2.3", "", "GPI.023. Establecimiento del Calendario de Hitos y Entregas", "EARoot/EA1/EA2/EA2/EA16.htm", "4.png", "", "", "{EFD50627-BCC5-41d6-B491-A151A5142940}", "Package");
+tocTab[tocTab.length] = new Array("1.2.2.4", "", "GPI.024. Planificación Detallada de Actividades y Recursos Necesarios", "EARoot/EA1/EA2/EA2/EA17.htm", "4.png", "", "", "{504AE376-7259-496c-89D6-2A0FFAEDF9AF}", "Package");

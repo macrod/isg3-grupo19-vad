@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("2.2.2.2.2:1", "", "022.03.Diagrama Casos de Uso del Subsistema Gestión de Solicitudes de Servicios", "EARoot/EA2/EA2/EA2/EA2/EA2/EA133.htm", "180.png", "583", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.2.2.2:2", "", "UC-0002.Gestión de Solicitudes-Demandas de Servicios", "EARoot/EA2/EA2/EA2/EA2/EA2/EA135.htm", "7.png", "4407", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2.2.2:3", "", "UC-0020. Consulta Solicitud", "EARoot/EA2/EA2/EA2/EA2/EA2/EA136.htm", "7.png", "3832", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2.2.2:4", "", "UC-0021. Modificar Solicitud", "EARoot/EA2/EA2/EA2/EA2/EA2/EA137.htm", "7.png", "3855", "0", "", "UseCase");

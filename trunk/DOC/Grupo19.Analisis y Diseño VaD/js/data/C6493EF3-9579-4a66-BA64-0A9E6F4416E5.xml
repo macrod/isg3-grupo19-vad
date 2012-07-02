@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("1.1", "1", "ESQUEMA PROYECTO", "", "4.png", "", "", "{312F529A-385D-4507-9065-CA125A241088}", "Package");
+tocTab[tocTab.length] = new Array("1.2", "1", "GPI. Actividades de Inicio del Proyecto", "EARoot/EA1/EA4.htm", "4.png", "", "", "{4F9ED08F-F543-4790-820F-AC179A73BF8F}", "Package");
+tocTab[tocTab.length] = new Array("1.3", "", "GPS. Actividades de Seguimiento y Control", "EARoot/EA1/EA5.htm", "4.png", "", "", "{2B44BCB0-B93F-4cac-99BF-B1305610E7A7}", "Package");
+tocTab[tocTab.length] = new Array("1.4", "", "GPF.Actividades de Finalización del Proyecto", "EARoot/EA1/EA6.htm", "4.png", "", "", "{E3F95A8F-EF67-4e7b-A870-7E07DDC13069}", "Package");
