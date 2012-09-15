@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></meta>
+    	<title>SVL - Servicio de Voluntariado Local</title>
+    	<link rel="stylesheet" type="text/css" href="css/vad_estilo.css"></link>
+  	</head>
+  	<body leftmargin=0 topmargin=0>
+    	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr><td valign="top" colspan="2">
+            	<IFRAME src="Cabecera.htm" scrolling="no" frameborder="0" width="100%" height="132"></IFRAME>
+            </td></tr>
+            <tr align="left">
+            	<td width="200" align="left" valign="top">
+					<IFRAME src="Menu.jsp" scrolling="no" frameborder="0" width="200" height="565"></IFRAME> 
+            	</td>
+            	<td width="1065" align="left" valign="top">
+					<table width="99%" border="0" cellpadding="0" cellspacing="0" align="left">
+						<tr>
+						  <td class="cabecera_pagina">LISTADO DE PERFILES</td>
+						</tr>
+						<tr><td>
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr><td>
+									<table class="x2d" border="0" cellpadding="0" cellspacing="0" width="100%">           							   											
+										<tr>                  							
+											<td width="50%" align="left" nowrap="nowrap">&nbsp;
+												<button class="boton_general" type="button" onclick="javascript:window.parent.location.href='SVL_Admin_Perfiles_1.htm';">Grabar</button>
+											</td>					 						
+											<td width="50%" align="right" nowrap="nowrap">
+												<table width="60%" border="0" cellpadding="0" cellspacing="0">
+													<tr>
+														<td nowrap="nowrap" class="texto_min" align=center>Anterior</td>
+														<td nowrap="nowrap" align=center>
+															<select title="Select record set" class="texto_min">
+																<option value="all">Muestra todos</option>
+																<option value="1" selected>1-4 de 4</option>
+															</select>
+														</td>
+														<td nowrap="nowrap" align="center" class="texto_min">Siguiente</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td></tr>
+							</table>
+							<table class="x2b" border="0" cellpadding="1" cellspacing="0" width="100%">
+								<form name="formulario1" action="" method=post>
+									<tr>
+										<th width="3%"  class="x2t"     scope="col" nowrap>&nbsp;</th>
+										<th width="30%" class="x2t x5k" scope="col" nowrap>Nombre</th>
+										<th width="67%" class="x2t x5k" scope="col" nowrap>Descripción</th>
+									</tr>
+									<tr>
+										<td class="x2o x5y"><input name="cheque1" type="radio" value="1" checked></td>
+										<td class="x2j x5y">Administrador</td>
+										<td class="x2j x5y">Administrador General del SVL </td>
+									</tr>
+									<tr>
+										<td class="x2o x5y"><input name="cheque1" value="2" type="radio" onclick="javascript:location.href='VEO_Perfiles_2.htm'"></td>
+										<td class="x2j x5y">Voluntario</td>
+										<td class="x2j x5y">Persona que se da de alta en SVL como prestador de servicios de voluntariado</td>
+									</tr>
+									<tr>
+										<td class="x2o x5y"><input name="cheque1" value="3" type="radio" onclick="javascript:location.href='VEO_Perfiles_3.htm'"></td>
+										<td class="x2j x5y">Demandante</td>
+										<td class="x2j x5y">Persona que se da de alta en SVL como demandante de los servicios de voluntariado</td>
+									</tr>
+									<tr>
+										<td class="x2o x5y"><input name="cheque1" value="4" type="radio" onclick="javascript:location.href='VEO_Perfiles_4.htm'"></td>
+										<td class="x2j x5y">Visitante</td>
+										<td class="x2j x5y">Perfil anónimo no registrado</td>
+									</tr>
+								</form>
+							</table>
+						</td></tr>
+						<tr><td height="10"></td></tr>
+						<tr>
+							<td align="left" valign="top">
+								<table width="100%" align="left" cellpadding="0" cellspacing="0">
+									<tr>
+										<td width="3%" class="x2o x5y">&nbsp;</td>
+										<td width="30%" class="x2j x5y"><input name="perf_descrico" id="perf_descrico" class="caja_texto" alt="Descripción corta del perfil nuevo" size="30" align="left"></td>
+										<td width="67%" class="x2j x5y"><input name="perf_descrila" id="perf_descrila" class="caja_texto" alt="Descripción larga del perfil nuevo" size="60" align="left"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr><td valign="top" colspan="2">
+            	<IFRAME src="Pie.htm" scrolling="no" frameborder="0" width="100%" height="25"></IFRAME>
+            </td></tr>
+		</table>
+	</body>
+</html>

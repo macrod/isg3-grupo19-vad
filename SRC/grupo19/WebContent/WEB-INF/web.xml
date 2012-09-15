@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>grupo19</display-name>
+  <welcome-file-list>
+    <welcome-file>Index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FrontController</display-name>
+    <servlet-name>FrontController</servlet-name>
+    <servlet-class>svl.servlets.FrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/FrontController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletGuardarRegistro</servlet-name>
+    <servlet-class>svl.servlets.ServletGuardarRegistro</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletGuardarRegistro</servlet-name>
+    <url-pattern>/ServletGuardarRegistro</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletGuardarServicios</servlet-name>
+    <servlet-class>svl.servlets.ServletGuardarServicios</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletGuardarServicios</servlet-name>
+    <url-pattern>/ServletGuardarServicios</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletGuardarSolicitud </servlet-name>
+    <servlet-class>svl.servlets.ServletGuardarSolicitud </servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletGuardarSolicitud </servlet-name>
+    <url-pattern>/ServletGuardarSolicitud </url-pattern>
+  </servlet-mapping>
+  <!-- Servlet para la generacion del log-->
+	<servlet>
+		<servlet-name>log4j-init</servlet-name>
+		<servlet-class>svl.pos.util.Log4JInit</servlet-class>
+		<init-param>
+			<param-name>fichero_configuracion</param-name>
+			<param-value>log4j.properties</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+</web-app>
