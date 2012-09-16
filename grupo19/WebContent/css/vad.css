@@ -1,0 +1,108 @@
+#cabecera {float: left;width: 100%;height: 110px;background: url(../img/banner_svl2.gif) no-repeat left center;}
+#bola {float: right;width: 250px;height: 110px;background: url(../img/bola_svl.jpg) no-repeat right center;}
+#localizador {float: left;width: auto;}
+
+/* ESTILO GENERAL */
+.titulo_aplicacion{text-align:center; font-family:Verdana; font-size:15px;color:#000099; font-weight:bold; letter-spacing:1px; }
+.pie_aplicacion{ text-align:center; font-family:Verdana; font-size:9px;color:#000000;font-style:italic;font-weight:bold; }  
+.cabecera_pagina{width:100%;height:17px;background:#1a81b6;color:#FFFFFF;font-weight:bold;font-family: Verdana;font-size:9px;text-align:left;padding-left:5px;padding-top:2px;padding_bottom:2px;border:1px solid #000000;}
+.subcabecera_pagina{width:100%;height:17px;background:#E7E7E7;color:#000000;font-weight:bold;font-family: Verdana;font-size:9px;text-align:left;padding-left:5px;padding-top:2px;padding_bottom:2px;border:1px solid #000000;}
+.boton_general{font-family:Verdana;font-size:10px;color:#000000}
+.etiqueta{font-family:Verdana;font-size:9px;color:#000000;font-weight:bold;}
+.ruta{font-family:Verdana;font-size:9px;color:#FFFFFF;}
+.caja_texto{font-family:Verdana;font-size:9px;color:#000000}
+.texto_min{font-family:Verdana;font-size:9px;}
+.texto_min_1{font-family:Verdana;font-size:9px;color:#FFFFFF;}
+.texto_min_1_b{font-family:Verdana;font-size:9px;color:#FFFFFF;font-weight:bold;text-decoration:none;}
+/* FIN ESTILO GENERAL */
+
+
+/* ESTILO LOGIN */
+.cabecera_login{ height:20px; background-color: #1a81b6; border:1px solid #1a81b6; font-family:Verdana; font-weight:bolder; font-size:10px; text-align:center; color:#FFFFFF; }
+.cuerpo_login{ height:80px; border:1px solid #1a81b6; font-family:Verdana; font-weight:bolder; font-size:10px; text-align:center; color:#000000; }
+.etiqueta_login{ text-align:right; font-family:Verdana; font-size:10px;color:#000000;font-weight:bolder; }
+.texto_login{ font-family:Verdana; font-size:11px;color:#000000; }
+/* FIN ESTILO LOGIN */
+
+
+/* MENÚ PRINCIPAL */
+.menu_principal{width:160px;padding-left:2px;}
+.mainDiv{width:160px;}
+/*Caja Prinipal*/
+.tituloMenu	  {width:167px;height:15px;background-color:#1a81b6;color:#FFFFFF;font-weight:bold;font-family:Verdana;font-size:8px;text-align:center;padding-left:2px;padding-top:5px;}
+.topItem      {width:165px;cursor:pointer;height:17px;background-color:#F7F7F7;text-decoration:none;color:#000000;font-weight:bold;font-family:Verdana;font-size:8px;text-align:left;padding-left:2px;padding-top:3px;border:1px solid #1a81b6;}
+.topItem a    {width:165px;cursor:pointer;height:17px;background-color:#F7F7F7;text-decoration:none;color:#000000;font-weight:bold;font-family:Verdana;font-size:8px;text-align:left;padding-left:2px;}
+.topItemOver  {cursor:pointer;color:#000000;font-family:Verdana;font-size:8px;text-align:left;text-decoration:none;font-weight:bold;padding-left:2px;}
+.topItemOver a{cursor:pointer;color:#F7F7F7;font-family:Verdana;font-size:8px;text-align:left;text-decoration:none;font-weight:bold;padding-left:2px;}
+.dropMenu     {width:162px;background:#F7F7F7;padding-left:5px;border-left:1px solid #000000;border-right:1px solid #000000;}
+.subMenu      {display:none;height:20px;}
+.subItem      {width:160px;height:17px;padding-top:15px;text-decoration:none;font-family:Verdana;font-size:9px;text-align:left;color:#000000;}
+.subItem a	  {width:160px;height:25px;padding-top:15px;text-decoration:none;font-family:Verdana;font-size:9px;text-align:left;color:#000000;}
+.subItemOver  {width:160px;height:20px;color:#000000;font-family:Verdana;font-size:9px;text-align:left;text-decoration:none;}
+.subItemOver a{width:160px;height:20px;color:#B60026;font-family:Verdana;font-size:9px;text-align:left;text-decoration:none;}
+.drop		  {border-left:1px solid black;border-right:1px solid black;}
+/* FIN MENÚ PRINCIPAL */
+
+
+/* PESTAÑAS */
+.x27{height:20px;background-color:#E1E1E1;border:1px solid #1a81b6; text-align:center}
+.menu_tab{text-align:center;font-family:Verdana;font-size:9px;color:#000000;text-decoration:none;}
+.x28{height:20px;background-color:#1a81b6;text-align:center;font-family:Verdana;font-size:9px;border:1px solid #000000;color:#FFFFFF;font-weight:bold;}
+.x29{border-bottom:1px solid #000000;height:20px;}
+.x30{border-bottom:1px solid #000000;height:20px;background-color:#E7E7E7;font-family:Verdana;font-size:11px;border:1px solid #000000;}
+/* FIN PESTAÑAS */
+
+
+/* TABLA FFFFD4*/
+.x2b{border:1px solid #000000;}
+.x2d{border:1px solid #000000;}
+.xz{border:1px solid #000000;}
+.x2v{color:#000000;text-align:center;font-family:Verdana;font-weight:bold;font-size:11px;}
+.x2t{height:15px;color:#000000;background:#FCEB94;text-align:left;font-family:Verdana;font-weight:bold;font-size:9px; border-bottom:2px solid #000000;}
+.x2j{height:15px;color:#000000;font-family:Verdana;font-size:9px; border-bottom:1px solid #E1E1E1;}
+.caja_buscador{border-left:1px solid #000000;border-right:1px solid #000000;border-bottom:1px solid #000000;}
+.titulo_listado{height:20px; background-color:#FFFFD4; padding-left:10px; padding-right:10px; border:1px solid #000000; color: #000000; font-family: Verdana;font-weight: bold; font-size:11px}
+.titulo_historico{height:20px; background-color:#E1E1E1; padding-left:6px; padding-right:6px; border-top: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; color: #000000; font-family: Verdana;font-weight: bold; font-size:11px}
+.texto_min{font-family:Verdana;font-size:10px;}
+/* FIN TABLA */
+
+
+
+
+.TablaGeneral{border: 1px solid #000000;}
+.TextoResaltado{font-family:Verdana; font-size:12px;color:#000000;text-align:left}
+.TextoGeneral{font-family:Verdana; font-size:10px;color:#000000;text-align:justify}
+.EtiquetaGeneral{font-family:Verdana; font-weight:bolder; font-size:10px;color:#1a81b6;}
+.EtiquetaResaltada{font-family:Verdana; font-weight:bolder; font-size:12px;color:#000000;}
+.subcabecera_expedientes{height:20px;background-color:#E1E1E1;}
+.mensaje_error{background-color:#E1E1E1;color:#000000;font-family:verdana;font-size:10px;}
+.x3m{background-color:#E1E1E1;}
+.x21{color:red;font-family:verdana;font-size:11px;}
+.x22{color:red;font-family:verdana;font-size:11px;}
+.x3e{background-color:#000000;}
+.x8o{background-color:#E1E1E1;}
+.x3u{color:#000000;font-family:verdana;font-size:10px;}
+.x8p{color:#000000;font-family:verdana;font-size:10px;}
+.InfoRegistro{height:10px;font-family:Verdana; font-size:9px;color:#000000;font-style:italic;}
+
+
+
+/* Etiquetas Buscador */
+.xa{color: #000000;font-family: Verdana;font-weight: bold;font-size:11px}
+
+/* Texto Buscador Contactos */
+.x6{color: #000000;font-family: Verdana;font-size:11px}
+
+
+
+.x52{font-family:Verdana; font-size:9px;}
+.x53{font-family:Verdana; font-size:9px;}
+.x2f{border:1px solid #000000;}
+.x2g{border:1px solid #000000;}
+
+/* cabecera del listado */
+.x2x{background-color:#FFFFD4; color: #000000; text-align:center; font-family: Verdana;font-weight: bold;font-size:11px; border-bottom:1px solid #000000; border-right:1px solid #000000}
+.x34{background-color:#FFFFD4; color: #000000; text-align:center; font-family: Verdana;font-weight: bold;font-size:11px; border-bottom:1px solid #000000; border-right:1px solid #000000}
+
+/* listado */
+.x60{color: #000000; background-color:#FFFFFF; font-family: Verdana;font-size:11px; text-align:left; border-bottom:1px solid #000000; border-right:1px solid #000000}
